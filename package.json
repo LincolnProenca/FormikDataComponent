@@ -1,6 +1,6 @@
 {
   "name": "formik-data-component-teste",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A component to simplify the use of forms based on Formik",
   "main": "src/index.tsx",
   "files": [
@@ -9,8 +9,7 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc",
-    "postinstall": "node scripts/postinstall.js"
+    "build": "tsc"
   },
   "author": "Lincoln Rodrigues Proença <91763571+LincolnProenca@users.noreply.github.com>",
   "license": "MIT",
