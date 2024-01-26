@@ -7,10 +7,10 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node", // Change this to "node" for compatibility with Next.js
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
+    "moduleResolution": "node", // Change this to "node" for compatibility with Next.js
     "incremental": true,
     "declaration": true // Add this line to generate TypeScript declaration files
   },

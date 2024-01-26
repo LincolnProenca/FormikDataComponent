@@ -2,7 +2,7 @@
 
 This package provides a set of components for form management in Next.js applications, utilizing the Formik library. The two main components, `FormDataRoot` and `FormdataForm`, work together to simplify the process of building and handling forms in your Next.js project.
 
-## Installation
+<!-- ## Installation
 
 ```bash
 npm install formik-data-component
@@ -13,6 +13,7 @@ or
 ```bash
 yarn add formik-data-component
 ```
+ -->
 
 ## Usage
 

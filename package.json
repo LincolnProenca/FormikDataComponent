@@ -1,9 +1,9 @@
 {
   "name": "formik-data-component",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "A component to simplify the use of forms based on Formik",
   "main": "index.js",
-  "types": "index.d.ts",
+  "types": "index.d.js",
   "scripts": {
     "build": "tsc"
   },
