@@ -1,10 +1,11 @@
 {
-  "name": "formik-data-component",
-  "version": "1.0.0",
+  "name": "formik-data-component-teste",
+  "version": "0.0.2",
   "description": "A component to simplify the use of forms based on Formik",
   "main": "src/index.tsx",
   "files": [
     "index.tsx",
+    "scripts/*",
     "src"
   ],
   "scripts": {
