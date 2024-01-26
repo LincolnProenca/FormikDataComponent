@@ -1,6 +1,6 @@
 {
   "name": "formik-data-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A component to simplify the use of forms based on Formik",
   "main": "index.js",
   "types": "index.d.ts",
@@ -20,8 +20,8 @@
     "component"
   ],
   "peerDependencies": {
-    "formik": "^2.2.6",
-    "react": "^16.8.0",
+    "formik": "^2.4.5",
+    "react": "^18.2.0",
     "tailwind-merge": "^2.0.0"
   },
   "devDependencies": {
