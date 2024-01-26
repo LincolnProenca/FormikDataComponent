@@ -5,13 +5,13 @@ This package provides a set of components for form management in Next.js applica
 ## Installation
 
 ```bash
-npm install formik-data-component
+npm install formik-data-wrapper
 ```
 
 or
 
 ```bash
-yarn add formik-data-component
+yarn add formik-data-wrapper
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ The `FormDataRoot` component is a wrapper that manages form state and submission
 #### Example:
 
 ```jsx
-import { FormikData } from "formik-data-component";
+import { FormikData } from "formik-data-wrapper";
 
 <FormikData.Root
   onSubmit={handleFormSubmit}
@@ -61,7 +61,7 @@ The `FormdataForm` component renders form fields based on the provided `columns`
 #### Example:
 
 ```jsx
-import { FormikData } from "formik-data-component";
+import { FormikData } from "formik-data-wrapper";
 
 <FormikData.Form
   columns={formColumns}
@@ -75,7 +75,7 @@ import { FormikData } from "formik-data-component";
 ### Example Usage:
 
 ```jsx
-import { FormikData } from "formik-data-component";
+import { FormikData } from "formik-data-wrapper";
 
 <FormikData.Root
   onSubmit={handleFormSubmit}

@@ -1,6 +1,6 @@
 {
-  "name": "formik-data-component",
-  "version": "0.0.8",
+  "name": "formik-data-wrapper",
+  "version": "1.0.0",
   "description": "A component to simplify the use of forms based on Formik",
   "main": "src/index.tsx",
   "files": [
