@@ -1,8 +1,31 @@
 {
-  "name": "FormikDataComponent",
+  "name": "formik-data-component",
   "version": "1.0.0",
   "description": "A component to simplify the use of forms based on Formik",
   "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "author": "Lincoln Rodrigues Proença <91763571+LincolnProenca@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LincolnProenca/FormikDataComponent.git"
+  },
+  "keywords": [
+    "formik",
+    "react",
+    "form",
+    "component"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "formik": "^2.2.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11"
+  }
 }
