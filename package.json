@@ -1,0 +1,8 @@
+{
+  "name": "FormikDataComponent",
+  "version": "1.0.0",
+  "description": "A component to simplify the use of forms based on Formik",
+  "main": "index.js",
+  "author": "Lincoln Rodrigues Proença <91763571+LincolnProenca@users.noreply.github.com>",
+  "license": "MIT"
+}
