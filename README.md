@@ -31,15 +31,15 @@ The `FormDataRoot` component is a wrapper that manages form state and submission
 #### Example:
 
 ```jsx
-import { FormData } from "formik-data-component";
+import { FormikData } from "formik-data-component";
 
-<FormData.Root
+<FormikData.Root
   onSubmit={handleFormSubmit}
   initialValues={initialFormValues}
   schema={formValidationSchema}
 >
   {/* Form structure goes here */}
-</FormData.Root>;
+</FormikData.Root>;
 ```
 
 ### `FormdataForm` Component
@@ -58,29 +58,29 @@ The `FormdataForm` component renders form fields based on the provided `columns`
 #### Example:
 
 ```jsx
-import { FormData } from "formik-data-component";
+import { FormikData } from "formik-data-component";
 
-<FormData.Form
+<FormikData.Form
   columns={formColumns}
   id="formId"
   className="custom-form-styling"
 >
   {/* Additional form elements or customization goes here */}
-</FormData.Form>;
+</FormikData.Form>;
 ```
 
 ### Example Usage:
 
 ```jsx
-import { FormData } from "formik-data-component";
+import { FormikData } from "formik-data-component";
 
-<FormData.Root
+<FormikData.Root
   onSubmit={handleFormSubmit}
   initialValues={initialFormValues}
   schema={formValidationSchema}
 >
-  <FormData.Form columns={formColumns} id="formId" />
-</FormData.Root>;
+  <FormikData.Form columns={formColumns} id="formId" />
+</FormikData.Root>;
 ```
 
 This example demonstrates the integration of the `FormDataRoot` and `FormdataForm` components to create a form with specific columns and customization. Adjust the props and structure according to your specific form requirements.
